@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.sass","_layouts.sass"],"names":[],"mappings":"AAEA,yEAAY;ACFZ;EACC,sBAAsB;CAAG","file":"app.css","sourcesContent":["\n// Fonts\n@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);\n\n// Variables\n@import \"variables\";\n\n// layouts\n@import \"layouts\";\n",".view {\n\tmargin: 50px 0 50px 0; }\n"]}
