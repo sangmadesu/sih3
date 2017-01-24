@@ -10,20 +10,9 @@
 <body>
 	
 	<div id="app">
-		
 		@include('layouts.nav')
-
-		<div class="container">
-
-			@yield('contents')
-		
-		</div>
-
+		@yield('contents')
 	</div>
-
-	<footer class="footer">
-		@include('layouts.footer')
-	</footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP1sgG-W732wsw6J4ZgOIO5ScTlJfdT_U"></script>
