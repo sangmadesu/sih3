@@ -15,8 +15,6 @@
 
 				const mapContainer = `.map-${this.i}`;
 
-				console.log(mapContainer);
-
 				var map = new google.maps.Map(document.querySelector(mapContainer), {
 					zoom: 8,
 					center: latlang
@@ -44,7 +42,7 @@
 
 <style scoped>
 	.map-container {
-		height: 200px;
+		height: 250px;
 		width: 100%;
 	}
 </style>

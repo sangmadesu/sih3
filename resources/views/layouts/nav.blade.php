@@ -1,17 +1,14 @@
-<nav class="nav has-shadow">
-
-	<div class="container">
-
-		<div class="nav-left">
-
+<nav class="top-navigation">
+	<ul class="container">
+		<li>
 			<router-link 
-				:to="{ name: 'home' }" 
-				class="nav-item is-tab" 
+				:to="{ name: 'home' }"
 				active-class="is-active"
-			> HOME </router-link>
-		
-		</div>
-
-	</div>
-
+			> 
+				<span class="icon">
+					<fa class="fa fa-home"></fa>
+				</span> 
+			</router-link>
+		</li>
+	</ul>
 </nav>

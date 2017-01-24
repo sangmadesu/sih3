@@ -1,12 +1,10 @@
 <template>
 	<div class="container">
-		<div class="columns">
-			<station 
-				v-for="(station, i) in stations" 
-				:station="station"
-				:index="i"
-			></station>
-		</div>
+		<station 
+			v-for="(station, i) in stations" 
+			:station="station"
+			:index="i"
+		></station>
 	</div>
 </template>
 
@@ -24,9 +22,6 @@
 
 		methods: {
 
-			/**
-			* fetch data
-			*/
 			getStations() {
 				axios.get('/api/stations')
 					.then((response) => {

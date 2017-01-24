@@ -1,16 +1,24 @@
 <?php
 
-// front view
+/**
+* frontend
+* -------------------------
+* @return localhost:8000/
+*/
 Route::get('/', function () {
     return view('contents');
 });
 
-// get query string in public ip
+/**
+* get all data from logger
+* ------------------------
+*  @return string
+*/
 Route::get('/log.php', function () {
 
 	/**
-	* handle convert data type string to datetime
-	* @param string
+	* handle convert data string to datetime
+	* @param $timeString string
 	*/
 	function convertStringToDateTime($timeString) {
 		$year = substr($timeString, 0, 4);
